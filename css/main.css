@@ -1,0 +1,158 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+/* NAVIGATION */
+nav {
+	background-color: #FE7D00;
+	height: 100px;
+}
+
+.logo img {
+	width: 5%;
+	vertical-align: middle;
+}
+
+a.logo {
+	text-decoration: none;
+	padding-left: 100px;
+}
+
+.logo p {
+	display: inline;
+}
+
+.navigation p {
+	color: #FFFFFF;
+	font-size: 40px;
+}
+
+.navigation span {
+	font-weight: bold;
+}
+
+.navigation ul {
+	float: right;
+}
+
+.navigation li {
+	display: inline;
+	line-height: 100px;
+	padding: 40px;
+	font-size: 20px;
+}
+
+.navigation li a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+/* SEARCH */
+div.search {
+	float: right;
+	border: none;
+	width: 400px;
+	height: 75px;
+	background-color: #EFEEED;
+	position: absolute;
+	margin-left: 70%;
+	margin-top: 20px;
+}
+
+input {
+	float: right;
+	border: none;
+	width: 400px;
+	height: 75px;
+	background-color: #EFEEED;
+	font-size: 20px;
+}
+
+.search i {
+	height: 75px;
+	position: absolute;
+	background-color: #EFEEED;
+	line-height: 75px;
+	margin-left: 325px;
+	color: grey;
+}
+
+/* MIDDLE */
+section.middle {
+	height: 75%;
+}
+.middle img {
+	width: 35%;
+	height: 35%;
+	vertical-align: middle;
+	margin: 50px 0 50px 200px;
+	position: relative;
+	top: 70px;
+}
+
+.middle p {
+	width: 40%;
+    padding: 50px;
+    line-height: 80px;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 48px;
+    display: inline-block;
+    color: #E08E4D;
+}
+
+.middle span {
+	font-weight: bold;
+}
+
+.middle .web {
+	color: #90C0BE;
+}
+
+.buttons {
+	text-align: center;
+	line-height: 75px;
+	padding: 40px;
+	margin-left: 32%;
+	position: relative;
+    top: -170px;
+}
+
+.quote-button {
+	width: 300px;
+	height: 75px;
+	background-color: #FA7E05;
+	display: inline-block;
+	margin-right: 50px;
+}
+
+.case-button {
+	width: 300px;
+	height: 75px;
+	background-color: #7ACCC8;
+	display: inline-block;
+}
+
+.middle a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+.middle .quote-link {
+	background-color: #FA7E05;
+}
+
+.middle .case-link {
+	background-color: #7ACCC8;
+}
+
+/* FOOTER */
+footer {
+	height: 100px;
+	background-color: #7ACCC8;
+	width: 100%;
+}
