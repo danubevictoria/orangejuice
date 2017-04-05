@@ -156,3 +156,44 @@ footer {
 	background-color: #7ACCC8;
 	width: 100%;
 }
+
+@media (max-width: 1000px) {
+	.navigation li {
+		line-height: 30px;
+	}
+
+	/* SEARCH */
+	div.search {
+		margin: 10px;
+		float: right;
+		position: relative;
+	}
+
+	/* MIDDLE */
+	.middle p {
+		width: 75%;
+		position: relative;
+		top: -130px;
+	}
+
+	.middle img {
+		width: 50%;
+		position: relative;
+		top: -30px;
+	}
+
+	/* BUTTONS */
+	div.buttons {
+		margin-left: 0;
+		position: relative;
+		top: -150px;
+	}
+
+	div.quote-button {
+		float: left;
+	}
+
+	div.case-button {
+		float: right;
+	}
+}
